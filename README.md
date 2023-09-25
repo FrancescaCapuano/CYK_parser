@@ -12,7 +12,8 @@ instead of the number of trees.
 
 ## Classes and methods
 
-CKY.py
+### CKY.py
+
 A **CKY** class is implemented:
 - **CKY**:
 
