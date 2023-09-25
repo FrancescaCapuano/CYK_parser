@@ -101,14 +101,14 @@ Otherwise, the function `__count_trees` recursively counts the trees underlying
 the entry START_SYMBOL(0,lenght of sentence). In this case, the number of trees
 is returned.
 
-<sub> NOTE: During the iteration, we assign the first sentence with 4 parse trees to the variable `sentence_of_choice`.</sub>
+	<sub> NOTE: During the iteration, we assign the first sentence with 4 parse trees to the variable `sentence_of_choice`.</sub>
 - A list of ATIS test sentences with tab-separated numbers of parse trees
 is written to the output file. In case the sentence is not recognized from the
 grammar, 'There are no grammatical trees for this entry.' will be written
 instead of the number of trees.
 - The parse trees for first ATIS test sentence with 4 parse trees are
 drawn.
-7) The ATIS_output function is called both on the cnf ATIS grammar (as read from
+7) The `ATIS_output` function is called both on the cnf ATIS grammar (as read from
 the atis-grammar-cnf.cfg file) to write the output file ATIS_output1.txt, and on
 the cnf ATIS grammar (as converted from the original grammar using the myGrammar
 module) to write the output file ATIS_output2.txt. We obtain the same results
