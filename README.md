@@ -49,7 +49,7 @@ len(trees). Given the same number of recursions, each call to `__count_trees` ru
 in linear time, each call to `__write_trees` in cubic time.
 </sub>
 
-## myGrammar.py
+### myGrammar.py
 
 `def convert_to_cnf(grammar)`: given a non-lexical grammar, returns and equivalent
 grammar in chomsky normal form, if the start symbol never appears in the right-hand side of the rules.
